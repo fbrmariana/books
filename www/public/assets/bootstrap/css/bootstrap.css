@@ -66,7 +66,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #fff ;
+
 }
 
 [tabindex="-1"]:focus {
@@ -82,6 +83,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  
 }
 
 p {
@@ -102,6 +104,7 @@ address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
+
 }
 
 ol,
@@ -170,6 +173,7 @@ a {
 a:hover {
   color: #0056b3;
   text-decoration: underline;
+ 
 }
 
 a:not([href]):not([tabindex]) {
@@ -208,6 +212,8 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+ 
+
 }
 
 svg {
@@ -351,9 +357,7 @@ summary {
   cursor: pointer;
 }
 
-template {
-  display: none;
-}
+
 
 [hidden] {
   display: none !important;
@@ -366,10 +370,12 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
+  
 }
 
 h1, .h1 {
   font-size: 2.5rem;
+
 }
 
 h2, .h2 {
@@ -2402,8 +2408,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745;
+  background-color: #3827d1;
+  border-color: #3827d1;
 }
 
 .btn-success:hover {
